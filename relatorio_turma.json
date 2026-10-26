@@ -1,0 +1,12 @@
+{
+    "total_alunos": 4,
+    "media_geral": 7.25,
+    "maior_media": {
+        "nome": "Ana Silva",
+        "media": 9.17
+    },
+    "menor_media": {
+        "nome": "Daniel Souza",
+        "media": 5.17
+    }
+}
