@@ -50,3 +50,4 @@ def resumo(*notas, **opcoes):
 print(resumo(7.5, 8.2, 6.9, casas=1))
 """
 
+''
