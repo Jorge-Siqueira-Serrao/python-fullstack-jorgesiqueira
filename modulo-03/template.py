@@ -40,8 +40,16 @@ COMO VERIFICAR O PREENCHIMENTO:
 # D) IndexError: list index out of range
 # E) "uva"
 # ------------------------------------------------------------
-Q01 = "?"   # substitua pela sua resposta
+Q01 = "A"   # substitua pela sua resposta
+"""
+A lista inicial é: ["maçã", "banana", "uva", "laranja"]
 
+frutas[1] = "abacaxi" troca a "banana" por "abacaxi": ["maçã", "abacaxi", "uva", "laranja"]
+
+frutas.append("manga") adiciona "manga" no final: ["maçã", "abacaxi", "uva", "laranja", "manga"]
+
+frutas[-2] acessa o penúltimo elemento (índice negativo conta do fim para o começo, onde -1 é o último).
+"""
 
 # ------------------------------------------------------------
 # Q02 🟢 — Tuplas: imutabilidade
@@ -56,8 +64,16 @@ Q01 = "?"   # substitua pela sua resposta
 # D) (99, 20, 30) — índice 0 é substituído
 # E) TypeError: 'tuple' object does not support item assignment
 # ------------------------------------------------------------
-Q02 = "?"
+Q02 = "E"
+"""
+coordenadas = (10, 20, 30) cria uma tupla.
 
+Tuplas em Python são imutáveis, ou seja, não podem ser alteradas após a criação.
+
+A linha coordenadas[1] = 99 tenta modificar o segundo item da tupla.
+
+Como isso não é permitido, o Python gera um erro do tipo TypeError.
+"""
 
 # ------------------------------------------------------------
 # Q03 🟢 — Dicionários: método .get() com valor padrão
@@ -72,7 +88,7 @@ Q02 = "?"
 # D) "Ana"
 # E) None
 # ------------------------------------------------------------
-Q03 = "?"
+Q03 = "C"
 
 
 # ------------------------------------------------------------
@@ -88,7 +104,7 @@ Q03 = "?"
 # D) 8
 # E) 6
 # ------------------------------------------------------------
-Q04 = "?"
+Q04 = "B"
 
 
 # ------------------------------------------------------------
@@ -104,7 +120,13 @@ Q04 = "?"
 # D) [9.0, 8.5]
 # E) [9.0, 7.0]
 # ------------------------------------------------------------
-Q05 = "?"
+Q05 = "C"
+"""
+notas.sort(reverse=True) ordena a lista de forma decrescente (do maior para o menor):
+[9.0, 8.5, 7.0, 6.0, 5.5]
+
+O fatiamento (slicing) [1:3] pega os itens do índice 1 (inclusive) até o índice 3 (exclusive).
+"""
 
 
 # ------------------------------------------------------------
@@ -120,7 +142,7 @@ Q05 = "?"
 # D) [0]
 # E) []
 # ------------------------------------------------------------
-Q06 = "?"
+Q06 = "B"
 
 
 # ------------------------------------------------------------
@@ -137,7 +159,7 @@ Q06 = "?"
 # D) 8
 # E) 2
 # ------------------------------------------------------------
-Q07 = "?"
+Q07 = "E"
 
 
 # ------------------------------------------------------------
@@ -153,7 +175,7 @@ Q07 = "?"
 # D) [4, 16, 36, 64, 100]
 # E) [1, 9, 25, 49, 81]
 # ------------------------------------------------------------
-Q08 = "?"
+Q08 = "D"
 
 
 # ------------------------------------------------------------
@@ -178,7 +200,7 @@ Q08 = "?"
 # D) 5
 # E) 3
 # ------------------------------------------------------------
-Q09 = "?"
+Q09 = "A"
 
 
 # ------------------------------------------------------------
@@ -202,7 +224,7 @@ Q09 = "?"
 # D) ["Carlos", "Beatriz"]
 # E) ["Carlos", "Beatriz", "Diego"]
 # ------------------------------------------------------------
-Q10 = "?"
+Q10 = "D"
 
 
 # ──────────────────────────────────────────────────────────────
